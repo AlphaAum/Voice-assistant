@@ -81,7 +81,7 @@ if __name__ == '__main__':
             webbrowser.open("https://web.whatsapp.com/")
 
         elif "photo" in query:
-            photo_dir= "C:\\Users\\ridpa\\Pictures\\Camera Roll"
+            photo_dir= "C:\\Users\\ridpa\\Pictures\\Camera Rol
             photos=os.listdir(photo_dir)
             a=random.randint(0,len(photos)-1)
             os.startfile(os.path.join(photo_dir,photos[a]))
